@@ -1,0 +1,27 @@
+{
+  "task": "2.2",
+  "dataset": "CIFAR-10 (32x32 RGB, 10 classes)",
+  "train_images": 45000,
+  "val_images": 5000,
+  "test_images": 10000,
+  "model": "SmallCNN: 3 conv blocks (32-64-128) + FC(128) + dropout 0.3",
+  "parameters": 356810,
+  "optimizer": "Adam (lr=0.001)",
+  "batch_size": 64,
+  "epochs": 15,
+  "best_val_acc": 0.7912,
+  "train_acc_at_best_epoch": 0.7682,
+  "test_acc": 0.7878,
+  "per_class_test_acc": {
+    "airplane": 0.808,
+    "automobile": 0.911,
+    "bird": 0.654,
+    "cat": 0.588,
+    "deer": 0.797,
+    "dog": 0.695,
+    "frog": 0.884,
+    "horse": 0.786,
+    "ship": 0.906,
+    "truck": 0.849
+  }
+}

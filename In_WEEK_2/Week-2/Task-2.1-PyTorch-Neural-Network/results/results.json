@@ -1,0 +1,12 @@
+{
+  "task": "2.1",
+  "dataset": "Breast Cancer Wisconsin (sklearn), 569 samples, 30 features",
+  "model": "30-16-8-1 feed-forward, ReLU",
+  "loss": "BCEWithLogitsLoss",
+  "optimizer": "Adam (lr=0.001)",
+  "batch_size": 32,
+  "epochs": 50,
+  "final_train_loss": 0.0308,
+  "final_val_loss": 0.0952,
+  "val_accuracy": 0.9561
+}
