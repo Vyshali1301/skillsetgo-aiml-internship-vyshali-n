@@ -1,0 +1,13 @@
+{
+  "task": "3.2",
+  "dataset": "IMDB movie reviews (25,000 train / 25,000 test, binary sentiment)",
+  "model": "Embedding(32) + BiLSTM(32) + Dense(16) + Dropout",
+  "vocab_size": 10000,
+  "max_len": 250,
+  "optimizer": "Adam (lr=0.001)",
+  "batch_size": 64,
+  "epochs_run": 6,
+  "test_loss": 0.443,
+  "test_accuracy": 0.8067,
+  "train_time_sec": 822.9
+}
